@@ -1,0 +1,21 @@
+# ─────────────────────────────────────────────────────────────
+#  GreenGuard Backend — Python Dependencies
+#  Python 3.10+ recommended
+# ─────────────────────────────────────────────────────────────
+
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# File upload support
+python-multipart==0.0.9
+
+# ML inference (TFLite runtime — lighter than full TensorFlow)
+# Option A: Full TensorFlow (includes TFLite runtime)
+tensorflow==2.16.1
+# Option B: Lightweight TFLite-only runtime (uncomment if using on a server)
+# tflite-runtime==2.14.0
+
+# Image processing
+Pillow==10.3.0
+numpy==1.26.4
