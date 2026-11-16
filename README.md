@@ -136,8 +136,8 @@ GreenGuard/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/GreenGuard.git
-cd GreenGuard
+git clone https://github.com
+cd GreenGuard-AI-Crop-Detection
 ```
 
 ---
